@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,html}'",
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "pre-commit": "npm run build && git add ."
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.7.1",
+    "vite": "^2.9.9",
+    "vite-plugin-eslint": "^1.6.1",
+    "vite-plugin-nunjucks": "^0.1.10"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
