@@ -9,6 +9,7 @@
     "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
     "pre-commit": "npm run build && git add ."
   },
+  "pre-commit": "pre-commit",
   "devDependencies": {
     "eslint-config-prettier": "^8.5.0",
     "pre-commit": "^1.2.2",
